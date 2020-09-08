@@ -1,0 +1,93 @@
+@keyframes bar-animation{
+    0%{
+        width: 0;
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes up{
+    0%{
+        opacity: 0;
+    }
+
+    50%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+}
+
+@keyframes fadeUp{
+    0%{
+        opacity: 0;
+        transform: translateY(4rem);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes scale{
+    0%{
+        opacity: 0;
+        transform: scale(2);
+    }
+
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes grow{
+    0%{
+        width: 0;
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+        width: 100%;
+    }
+}
+
+@keyframes fadeDown{
+    0%{
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes animate {
+    0% {
+    transform: scale(0) rotate(50deg);
+    opacity: 0;
+    }
+
+    10%{
+        opacity: 1;
+    }
+
+    50%{
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1.6) rotate(360deg)translateY(-250px);
+    }
+}
+    
