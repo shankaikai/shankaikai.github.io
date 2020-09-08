@@ -74,20 +74,12 @@
 
 @keyframes animate {
     0% {
-    transform: scale(0) rotate(50deg);
-    opacity: 0;
-    }
-
-    10%{
-        opacity: 1;
-    }
-
-    50%{
-        opacity: 0;
+    transform: scale(0) translateY(0) ;
     }
 
     100% {
-        transform: scale(1.6) rotate(360deg)translateY(-250px);
+    transform: scale(1.6) translateY(-250px) rotate(360deg);
+    opacity: 0;
     }
-}
+    }
     

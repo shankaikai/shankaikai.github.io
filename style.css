@@ -239,6 +239,7 @@ nav{
     background-color: transparent;
 }
 
+
 .box div {
     height: 60px;
     width: 60px;
@@ -248,68 +249,60 @@ nav{
     animation: animate 4s linear infinite;
     background: rgba(255,255,255,.5);
     border-radius: 15px;
-    opacity: 0;
+
 }
+
 .box div:nth-child(1) {
     top: 20%;
     left: 20%;
-    animation: animate 8s ease-in-out infinite;
-    animation-delay: 1s;
-}
-.box div:nth-child(2) {
+    animation: animate 8s linear infinite;
+    }
+    .box div:nth-child(2) {
     top: 26%;
     left: 89%;
-    animation: animate 10s ease-in-out infinite;
-    animation-delay: 0.5s;
-}
-.box div:nth-child(3) {
+    animation: animate 10s linear infinite;
+    }
+    .box div:nth-child(3) {
     top: 80%;
     left: 90%;
-    animation: animate 5s ease-in-out infinite;
-    animation-delay: 2s;
-}
-.box div:nth-child(4) {
+    animation: animate 5s linear infinite;
+    }
+    .box div:nth-child(4) {
     top: 65%;
     left: 75%;
-    animation: animate 7s ease-in-out infinite;
-    animation-delay: 1s;
-}
-.box div:nth-child(5) {
+    animation: animate 7s linear infinite;
+    }
+    .box div:nth-child(5) {
     top: 90%;
     left: 10%;
-    animation: animate 9s ease-in-out infinite;
-    animation-delay: 3s;
-}
-.box div:nth-child(6) {
+    animation: animate 9s linear infinite;
+    }
+    .box div:nth-child(6) {
     top: 30%;
     left: 60%;
-    animation: animate 5s ease-in-out infinite;
-    animation-delay: 0.6s;
-}
-.box div:nth-child(7) {
+    animation: animate 5s linear infinite;
+    }
+    .box div:nth-child(7) {
     top: 70%;
     left: 33%;
-    animation: animate 8s ease-in-out infinite;
-    animation-delay: 1s;
-}
-.box div:nth-child(8) {
+    animation: animate 8s linear infinite;
+    }
+    .box div:nth-child(8) {
     top: 75%;
     left: 60%;
-    animation: animate 10s ease-in-out infinite;
-    animation-delay: 0.2s;
-}
-.box div:nth-child(9) {
+    animation: animate 10s linear infinite;
+    }
+    .box div:nth-child(9) {
     top: 23%;
     left: 50%;
-    animation: animate 6s ease-in-out infinite;
-    animation-delay: 3s;
-}
-.box div:nth-child(10) {
+    animation: animate 6s linear infinite;
+    }
+    .box div:nth-child(10) {
     top: 35%;
     left: 7%;
-    animation: animate 10s ease-in-out infinite;
-    animation-delay: 1s;
-}
+    animation: animate 10s linear infinite;
+    }
+ 
 
 /* About Me */
 .section-light{
@@ -707,7 +700,7 @@ nav{
     justify-content: flex-start;
     align-items: center;
     height: 75px;
-    paddind-top: 1rem;
+    padding-top: 1rem;
 }
 
 .skill-logos{
@@ -800,7 +793,6 @@ nav{
     }
     .social-icons i{
         font-size: 3rem;
-        marg
     }
 
     .download-resume{
